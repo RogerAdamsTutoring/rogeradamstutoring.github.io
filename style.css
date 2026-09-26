@@ -173,6 +173,21 @@ footer {
   padding: 2rem 1.5rem 3rem;
 }
 
+.linkedin-btn {
+  display: inline-flex;
+  align-items: center;
+  line-height: 1;
+  gap: 0.5rem;
+  margin-top: 1rem;
+  background: #fff;
+  color: #0a66c2;
+}
+
+.linkedin-btn svg {
+  display: block;
+  flex-shrink: 0;
+}
+
 @media (max-width: 480px) {
   .hero h1 { font-size: 1.6rem; }
   .portrait { width: 110px; height: 110px; }
