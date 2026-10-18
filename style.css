@@ -29,16 +29,6 @@ body {
   background: var(--accent) url("assets/science_green.webp") center / max(100%, 800px) auto;
 }
 
-.hero-top::after {
-  content: "";
-  position: absolute;
-  left: calc(50% + 150px);
-  bottom: -1px;
-  width: 181px;
-  height: 42.5px;
-  background: url("assets/tor_hill.svg") no-repeat center / 100% 100%;
-}
-
 .portrait {
   position: relative;
   width: 150px;
@@ -230,7 +220,6 @@ footer {
   }
   .portrait { width: 130px; height: 130px; margin-top: -65px; }
   .hero-top { background-size: 640px auto; }
-  .hero-top::after { left: calc(50% + 70px); width: 141px; height: 33px; }
 }
 
 @media (max-width: 480px) {
